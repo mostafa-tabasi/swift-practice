@@ -14,7 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBAction func goToDicee(_ sender: UIButton){
+        let storyboard = UIStoryboard(name: "Dicee", bundle: nil)
+        let diceeVC = storyboard.instantiateViewController(withIdentifier: "DiceeViewController") as! DiceeViewController
+        
+        present(diceeVC, animated: true, completion: nil)
+    }
 }
 
