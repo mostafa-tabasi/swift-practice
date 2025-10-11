@@ -23,6 +23,14 @@
                                     <action selector="goToDicee:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TGv-9w-tNu"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zu-P7-cM2">
+                                <rect key="frame" x="188" y="471" width="40" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Quizz"/>
+                                <connections>
+                                    <action selector="goToQuizz:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qT3-uw-2DH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

@@ -21,5 +21,12 @@ class ViewController: UIViewController {
         
         present(diceeVC, animated: true, completion: nil)
     }
+    
+    @IBAction func goToQuizz(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Quizz", bundle: nil)
+        let diceeVC = storyboard.instantiateViewController(withIdentifier: "QuizzViewController") as! QuizzViewController
+        
+        present(diceeVC, animated: true, completion: nil)
+    }
 }
 
