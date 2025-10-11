@@ -15,6 +15,7 @@
 		0B0F41962E8FD356008A86CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F41942E8FD356008A86CF /* LaunchScreen.storyboard */; };
 		0B0F419F2E8FE39C008A86CF /* Dicee.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0F419E2E8FE39C008A86CF /* Dicee.storyboard */; };
 		0B0F41A32E8FE47E008A86CF /* DiceeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F41A22E8FE47E008A86CF /* DiceeViewController.swift */; };
+		0B48042A2E9A7F0500012BDA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4804292E9A7F0500012BDA /* Question.swift */; };
 		0B960D862E9A3F6E00E2E652 /* Quizz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B960D852E9A3F6E00E2E652 /* Quizz.storyboard */; };
 		0B960D882E9A3F8C00E2E652 /* QuizzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B960D872E9A3F8C00E2E652 /* QuizzViewController.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		0B0F41972E8FD356008A86CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B0F419E2E8FE39C008A86CF /* Dicee.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dicee.storyboard; sourceTree = "<group>"; };
 		0B0F41A22E8FE47E008A86CF /* DiceeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceeViewController.swift; sourceTree = "<group>"; };
+		0B4804292E9A7F0500012BDA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		0B960D852E9A3F6E00E2E652 /* Quizz.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Quizz.storyboard; sourceTree = "<group>"; };
 		0B960D872E9A3F8C00E2E652 /* QuizzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +93,7 @@
 			children = (
 				0B960D852E9A3F6E00E2E652 /* Quizz.storyboard */,
 				0B960D872E9A3F8C00E2E652 /* QuizzViewController.swift */,
+				0B4804292E9A7F0500012BDA /* Question.swift */,
 			);
 			path = quizz;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				0B0F418E2E8FD355008A86CF /* ViewController.swift in Sources */,
 				0B0F41A32E8FE47E008A86CF /* DiceeViewController.swift in Sources */,
 				0B0F418A2E8FD355008A86CF /* AppDelegate.swift in Sources */,
+				0B48042A2E9A7F0500012BDA /* Question.swift in Sources */,
 				0B0F418C2E8FD355008A86CF /* SceneDelegate.swift in Sources */,
 				0B960D882E9A3F8C00E2E652 /* QuizzViewController.swift in Sources */,
 			);
