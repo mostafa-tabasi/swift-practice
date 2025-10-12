@@ -28,5 +28,12 @@ class ViewController: UIViewController {
         
         present(diceeVC, animated: true, completion: nil)
     }
+    
+    @IBAction func goToBMI(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "BMICalculator", bundle: nil)
+        let diceeVC = storyboard.instantiateViewController(withIdentifier: "BMICalculatorViewController") as! BMICalculatorViewController
+        
+        present(diceeVC, animated: true, completion: nil)
+    }
 }
 
