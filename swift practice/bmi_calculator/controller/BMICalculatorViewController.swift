@@ -45,6 +45,8 @@ class BMICalculatorViewController: UIViewController {
         if segue.identifier == "goToResult" {
             let destinationVC = segue.destination as! ResultViewController
             destinationVC.bmiValue = calculatorLogic.getBMIValue()
+            destinationVC.bmiAdvice = calculatorLogic.getAdvice()
+            destinationVC.bmiColor = calculatorLogic.getColor()
         }
     }
 }

@@ -18,6 +18,7 @@
 		0B1C509C2E9A9C2400CA0D26 /* QuizLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1C509B2E9A9C2400CA0D26 /* QuizLogic.swift */; };
 		0B48042A2E9A7F0500012BDA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4804292E9A7F0500012BDA /* Question.swift */; };
 		0B8B60622E9CEC92009736D1 /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8B60612E9CEC92009736D1 /* CalculatorLogic.swift */; };
+		0B8B60642E9CFDC0009736D1 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8B60632E9CFDC0009736D1 /* BMI.swift */; };
 		0B960D862E9A3F6E00E2E652 /* Quizz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B960D852E9A3F6E00E2E652 /* Quizz.storyboard */; };
 		0B960D882E9A3F8C00E2E652 /* QuizzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B960D872E9A3F8C00E2E652 /* QuizzViewController.swift */; };
 		0B9DB2682E9BA93600A000D7 /* BMICalculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B9DB2672E9BA93600A000D7 /* BMICalculator.storyboard */; };
@@ -39,6 +40,7 @@
 		0B1C509B2E9A9C2400CA0D26 /* QuizLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizLogic.swift; sourceTree = "<group>"; };
 		0B4804292E9A7F0500012BDA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		0B8B60612E9CEC92009736D1 /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
+		0B8B60632E9CFDC0009736D1 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 		0B960D852E9A3F6E00E2E652 /* Quizz.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Quizz.storyboard; sourceTree = "<group>"; };
 		0B960D872E9A3F8C00E2E652 /* QuizzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzViewController.swift; sourceTree = "<group>"; };
 		0B9DB2672E9BA93600A000D7 /* BMICalculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BMICalculator.storyboard; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				0B8B60612E9CEC92009736D1 /* CalculatorLogic.swift */,
+				0B8B60632E9CFDC0009736D1 /* BMI.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			files = (
 				0B0F418E2E8FD355008A86CF /* ViewController.swift in Sources */,
 				0B0F41A32E8FE47E008A86CF /* DiceeViewController.swift in Sources */,
+				0B8B60642E9CFDC0009736D1 /* BMI.swift in Sources */,
 				0B8B60622E9CEC92009736D1 /* CalculatorLogic.swift in Sources */,
 				0B0F418A2E8FD355008A86CF /* AppDelegate.swift in Sources */,
 				0B48042A2E9A7F0500012BDA /* Question.swift in Sources */,
