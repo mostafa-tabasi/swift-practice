@@ -21,6 +21,8 @@
 		0B8B60642E9CFDC0009736D1 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8B60632E9CFDC0009736D1 /* BMI.swift */; };
 		0B8B60682E9D3FB1009736D1 /* Weather.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B8B60672E9D3FB0009736D1 /* Weather.storyboard */; };
 		0B8B606B2E9D400D009736D1 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8B606A2E9D400D009736D1 /* WeatherViewController.swift */; };
+		0B9224A52E9E7EB900009FEB /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9224A42E9E7EB900009FEB /* WeatherManager.swift */; };
+		0B9224A72E9E8B6B00009FEB /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9224A62E9E8B6B00009FEB /* WeatherData.swift */; };
 		0B960D862E9A3F6E00E2E652 /* Quizz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B960D852E9A3F6E00E2E652 /* Quizz.storyboard */; };
 		0B960D882E9A3F8C00E2E652 /* QuizzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B960D872E9A3F8C00E2E652 /* QuizzViewController.swift */; };
 		0B9DB2682E9BA93600A000D7 /* BMICalculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B9DB2672E9BA93600A000D7 /* BMICalculator.storyboard */; };
@@ -45,6 +47,8 @@
 		0B8B60632E9CFDC0009736D1 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 		0B8B60672E9D3FB0009736D1 /* Weather.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Weather.storyboard; sourceTree = "<group>"; };
 		0B8B606A2E9D400D009736D1 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		0B9224A42E9E7EB900009FEB /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		0B9224A62E9E8B6B00009FEB /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		0B960D852E9A3F6E00E2E652 /* Quizz.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Quizz.storyboard; sourceTree = "<group>"; };
 		0B960D872E9A3F8C00E2E652 /* QuizzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzViewController.swift; sourceTree = "<group>"; };
 		0B9DB2672E9BA93600A000D7 /* BMICalculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BMICalculator.storyboard; sourceTree = "<group>"; };
@@ -134,6 +138,7 @@
 		0B8B60652E9D3ECA009736D1 /* weather */ = {
 			isa = PBXGroup;
 			children = (
+				0B9224A32E9E7E9700009FEB /* model */,
 				0B8B60692E9D3FE6009736D1 /* controller */,
 				0B8B60662E9D3F9D009736D1 /* view */,
 			);
@@ -154,6 +159,15 @@
 				0B8B606A2E9D400D009736D1 /* WeatherViewController.swift */,
 			);
 			path = controller;
+			sourceTree = "<group>";
+		};
+		0B9224A32E9E7E9700009FEB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0B9224A42E9E7EB900009FEB /* WeatherManager.swift */,
+				0B9224A62E9E8B6B00009FEB /* WeatherData.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		0B960D842E9A3F3900E2E652 /* quizz */ = {
@@ -279,8 +293,10 @@
 			files = (
 				0B0F418E2E8FD355008A86CF /* ViewController.swift in Sources */,
 				0B0F41A32E8FE47E008A86CF /* DiceeViewController.swift in Sources */,
+				0B9224A72E9E8B6B00009FEB /* WeatherData.swift in Sources */,
 				0B8B606B2E9D400D009736D1 /* WeatherViewController.swift in Sources */,
 				0B8B60642E9CFDC0009736D1 /* BMI.swift in Sources */,
+				0B9224A52E9E7EB900009FEB /* WeatherManager.swift in Sources */,
 				0B8B60622E9CEC92009736D1 /* CalculatorLogic.swift in Sources */,
 				0B0F418A2E8FD355008A86CF /* AppDelegate.swift in Sources */,
 				0B48042A2E9A7F0500012BDA /* Question.swift in Sources */,
