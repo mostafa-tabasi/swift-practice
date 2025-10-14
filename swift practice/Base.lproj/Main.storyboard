@@ -39,6 +39,14 @@
                                     <action selector="goToBMI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uzR-nv-uCI"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9MQ-Nv-ac1">
+                                <rect key="frame" x="179" y="547" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Weather"/>
+                                <connections>
+                                    <action selector="goToWeather:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sXM-Pu-paY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

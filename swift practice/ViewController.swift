@@ -24,16 +24,23 @@ class ViewController: UIViewController {
     
     @IBAction func goToQuizz(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Quizz", bundle: nil)
-        let diceeVC = storyboard.instantiateViewController(withIdentifier: "QuizzViewController") as! QuizzViewController
+        let quizzVC = storyboard.instantiateViewController(withIdentifier: "QuizzViewController") as! QuizzViewController
         
-        present(diceeVC, animated: true, completion: nil)
+        present(quizzVC, animated: true, completion: nil)
     }
     
     @IBAction func goToBMI(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "BMICalculator", bundle: nil)
-        let diceeVC = storyboard.instantiateViewController(withIdentifier: "BMICalculatorViewController") as! BMICalculatorViewController
+        let bmiVC = storyboard.instantiateViewController(withIdentifier: "BMICalculatorViewController") as! BMICalculatorViewController
         
-        present(diceeVC, animated: true, completion: nil)
+        present(bmiVC, animated: true, completion: nil)
+    }
+    
+    @IBAction func goToWeather(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Weather", bundle: nil)
+        let weatherVC = storyboard.instantiateViewController(withIdentifier: "WeatherViewController") as! WeatherViewController
+        
+        present(weatherVC, animated: true, completion: nil)
     }
 }
 
