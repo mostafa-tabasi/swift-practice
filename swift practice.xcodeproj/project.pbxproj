@@ -17,6 +17,7 @@
 		0B0F41A32E8FE47E008A86CF /* DiceeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F41A22E8FE47E008A86CF /* DiceeViewController.swift */; };
 		0B1C509C2E9A9C2400CA0D26 /* QuizLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1C509B2E9A9C2400CA0D26 /* QuizLogic.swift */; };
 		0B48042A2E9A7F0500012BDA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4804292E9A7F0500012BDA /* Question.swift */; };
+		0B723B662E9F7D57006FF178 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B723B652E9F7D57006FF178 /* WeatherModel.swift */; };
 		0B8B60622E9CEC92009736D1 /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8B60612E9CEC92009736D1 /* CalculatorLogic.swift */; };
 		0B8B60642E9CFDC0009736D1 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8B60632E9CFDC0009736D1 /* BMI.swift */; };
 		0B8B60682E9D3FB1009736D1 /* Weather.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B8B60672E9D3FB0009736D1 /* Weather.storyboard */; };
@@ -43,6 +44,7 @@
 		0B0F41A22E8FE47E008A86CF /* DiceeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceeViewController.swift; sourceTree = "<group>"; };
 		0B1C509B2E9A9C2400CA0D26 /* QuizLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizLogic.swift; sourceTree = "<group>"; };
 		0B4804292E9A7F0500012BDA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		0B723B652E9F7D57006FF178 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		0B8B60612E9CEC92009736D1 /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
 		0B8B60632E9CFDC0009736D1 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 		0B8B60672E9D3FB0009736D1 /* Weather.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Weather.storyboard; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 			children = (
 				0B9224A42E9E7EB900009FEB /* WeatherManager.swift */,
 				0B9224A62E9E8B6B00009FEB /* WeatherData.swift */,
+				0B723B652E9F7D57006FF178 /* WeatherModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				0B0F41A32E8FE47E008A86CF /* DiceeViewController.swift in Sources */,
 				0B9224A72E9E8B6B00009FEB /* WeatherData.swift in Sources */,
 				0B8B606B2E9D400D009736D1 /* WeatherViewController.swift in Sources */,
+				0B723B662E9F7D57006FF178 /* WeatherModel.swift in Sources */,
 				0B8B60642E9CFDC0009736D1 /* BMI.swift in Sources */,
 				0B9224A52E9E7EB900009FEB /* WeatherManager.swift in Sources */,
 				0B8B60622E9CEC92009736D1 /* CalculatorLogic.swift in Sources */,
