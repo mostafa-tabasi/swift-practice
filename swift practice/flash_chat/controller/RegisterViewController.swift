@@ -18,5 +18,6 @@ class RegisterViewController: UIViewController {
     }
     
     @IBAction func onRegisterPressed(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "goToChat", sender: self)
     }
 }

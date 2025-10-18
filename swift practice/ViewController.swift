@@ -46,8 +46,7 @@ class ViewController: UIViewController {
     @IBAction func goToFlashChat(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "FlashChat", bundle: nil)
         let flashChatVC = storyboard.instantiateViewController(withIdentifier: "WelcomeViewController") as! WelcomeViewController
-        
-        present(flashChatVC, animated: true, completion: nil)
+        self.navigationController?.pushViewController(flashChatVC, animated: true)
     }
 }
 
