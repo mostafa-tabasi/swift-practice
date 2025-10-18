@@ -167,7 +167,7 @@
                     <connections>
                         <outlet property="emailTextField" destination="u72-XV-6FN" id="a5o-s2-FT0"/>
                         <outlet property="passwordTextField" destination="hLb-P9-NkF" id="3JW-VP-jKf"/>
-                        <segue destination="lwd-AH-u8E" kind="show" identifier="goToChat" id="JRV-FW-XaA"/>
+                        <segue destination="lwd-AH-u8E" kind="show" identifier="registerToChat" id="JRV-FW-XaA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -262,7 +262,7 @@
                     <connections>
                         <outlet property="emailTextField" destination="F21-w0-z4z" id="cWg-ZB-f80"/>
                         <outlet property="passwordTextField" destination="abR-gz-opL" id="cKY-Dk-eK7"/>
-                        <segue destination="lwd-AH-u8E" kind="show" identifier="goToChat" id="Po6-Wo-IV7"/>
+                        <segue destination="lwd-AH-u8E" kind="show" identifier="loginToChat" id="Po6-Wo-IV7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XcE-Gk-YZg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
