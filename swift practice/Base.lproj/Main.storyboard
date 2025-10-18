@@ -47,6 +47,15 @@
                                     <action selector="goToWeather:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sXM-Pu-paY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NKV-BA-0Qd">
+                                <rect key="frame" x="171" y="585" width="73" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Flash Chat"/>
+                                <connections>
+                                    <action selector="goToFlashChat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6GB-qQ-Th4"/>
+                                    <action selector="goToWeather:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R1A-bh-GCm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
