@@ -34,6 +34,7 @@
 		0B9DB2682E9BA93600A000D7 /* BMICalculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B9DB2672E9BA93600A000D7 /* BMICalculator.storyboard */; };
 		0B9DB26A2E9BA9BF00A000D7 /* BMICalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9DB2692E9BA9BF00A000D7 /* BMICalculatorViewController.swift */; };
 		0B9DB26C2E9BAEBF00A000D7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9DB26B2E9BAEBF00A000D7 /* ResultViewController.swift */; };
+		0BFD55492EAA735E0092A072 /* HackerNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD55482EAA735E0092A072 /* HackerNews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		0B9DB2672E9BA93600A000D7 /* BMICalculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BMICalculator.storyboard; sourceTree = "<group>"; };
 		0B9DB2692E9BA9BF00A000D7 /* BMICalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorViewController.swift; sourceTree = "<group>"; };
 		0B9DB26B2E9BAEBF00A000D7 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		0BFD55482EAA735E0092A072 /* HackerNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0B9DB2632E9BA8B000A000D7 /* bmi_calculator */,
 				0B960D842E9A3F3900E2E652 /* quizz */,
 				0B0F419D2E8FDEF4008A86CF /* dicee */,
+				0BFD554A2EAA736E0092A072 /* hacker_news */,
 				0B0F41892E8FD355008A86CF /* AppDelegate.swift */,
 				0B0F418B2E8FD355008A86CF /* SceneDelegate.swift */,
 				0B0F418D2E8FD355008A86CF /* ViewController.swift */,
@@ -266,6 +269,14 @@
 			path = controller;
 			sourceTree = "<group>";
 		};
+		0BFD554A2EAA736E0092A072 /* hacker_news */ = {
+			isa = PBXGroup;
+			children = (
+				0BFD55482EAA735E0092A072 /* HackerNews.swift */,
+			);
+			path = hacker_news;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -360,6 +371,7 @@
 				0B92D82F2EA37AB900337047 /* RegisterViewController.swift in Sources */,
 				0B960D882E9A3F8C00E2E652 /* QuizzViewController.swift in Sources */,
 				0B9DB26A2E9BA9BF00A000D7 /* BMICalculatorViewController.swift in Sources */,
+				0BFD55492EAA735E0092A072 /* HackerNews.swift in Sources */,
 				0B9DB26C2E9BAEBF00A000D7 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

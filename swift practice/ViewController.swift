@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class ViewController: UIViewController {
 
@@ -47,6 +48,13 @@ class ViewController: UIViewController {
         let storyboard = UIStoryboard(name: "FlashChat", bundle: nil)
         let flashChatVC = storyboard.instantiateViewController(withIdentifier: "WelcomeViewController") as! WelcomeViewController
         self.navigationController?.pushViewController(flashChatVC, animated: true)
+    }
+    
+    @IBAction func goToHackerNews(_ sender: UIButton) {
+        let hackerNews = HackerNews()
+        let hostingController = UIHostingController(rootView: hackerNews)
+        self.navigationController?.pushViewController(hostingController, animated: true)
+        
     }
 }
 
