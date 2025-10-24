@@ -34,6 +34,8 @@
 		0B9DB2682E9BA93600A000D7 /* BMICalculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B9DB2672E9BA93600A000D7 /* BMICalculator.storyboard */; };
 		0B9DB26A2E9BA9BF00A000D7 /* BMICalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9DB2692E9BA9BF00A000D7 /* BMICalculatorViewController.swift */; };
 		0B9DB26C2E9BAEBF00A000D7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9DB26B2E9BAEBF00A000D7 /* ResultViewController.swift */; };
+		0BEDBB552EAB6DD00047D4E3 /* NewsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEDBB542EAB6DD00047D4E3 /* NewsDetails.swift */; };
+		0BEDBB572EAB71DA0047D4E3 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEDBB562EAB71DA0047D4E3 /* WebView.swift */; };
 		0BFD55492EAA735E0092A072 /* HackerNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD55482EAA735E0092A072 /* HackerNews.swift */; };
 		0BFD554D2EAA7E5A0092A072 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD554C2EAA7E5A0092A072 /* NetworkManager.swift */; };
 		0BFD55502EAA902D0092A072 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD554F2EAA902D0092A072 /* PostData.swift */; };
@@ -69,6 +71,8 @@
 		0B9DB2672E9BA93600A000D7 /* BMICalculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BMICalculator.storyboard; sourceTree = "<group>"; };
 		0B9DB2692E9BA9BF00A000D7 /* BMICalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorViewController.swift; sourceTree = "<group>"; };
 		0B9DB26B2E9BAEBF00A000D7 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		0BEDBB542EAB6DD00047D4E3 /* NewsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetails.swift; sourceTree = "<group>"; };
+		0BEDBB562EAB71DA0047D4E3 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		0BFD55482EAA735E0092A072 /* HackerNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNews.swift; sourceTree = "<group>"; };
 		0BFD554C2EAA7E5A0092A072 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		0BFD554F2EAA902D0092A072 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
@@ -277,6 +281,8 @@
 			isa = PBXGroup;
 			children = (
 				0BFD55482EAA735E0092A072 /* HackerNews.swift */,
+				0BEDBB542EAB6DD00047D4E3 /* NewsDetails.swift */,
+				0BEDBB562EAB71DA0047D4E3 /* WebView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -381,8 +387,10 @@
 				0BFD554D2EAA7E5A0092A072 /* NetworkManager.swift in Sources */,
 				0B0F41A32E8FE47E008A86CF /* DiceeViewController.swift in Sources */,
 				0B9224A72E9E8B6B00009FEB /* WeatherData.swift in Sources */,
+				0BEDBB552EAB6DD00047D4E3 /* NewsDetails.swift in Sources */,
 				0B8B606B2E9D400D009736D1 /* WeatherViewController.swift in Sources */,
 				0B723B662E9F7D57006FF178 /* WeatherModel.swift in Sources */,
+				0BEDBB572EAB71DA0047D4E3 /* WebView.swift in Sources */,
 				0B8B60642E9CFDC0009736D1 /* BMI.swift in Sources */,
 				0BFD55502EAA902D0092A072 /* PostData.swift in Sources */,
 				0B9224A52E9E7EB900009FEB /* WeatherManager.swift in Sources */,
