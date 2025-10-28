@@ -18,6 +18,8 @@
 		0B1C509C2E9A9C2400CA0D26 /* QuizLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1C509B2E9A9C2400CA0D26 /* QuizLogic.swift */; };
 		0B48042A2E9A7F0500012BDA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4804292E9A7F0500012BDA /* Question.swift */; };
 		0B723B662E9F7D57006FF178 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B723B652E9F7D57006FF178 /* WeatherModel.swift */; };
+		0B7564992EAE33A8000C13B6 /* Todoey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7564982EAE33A8000C13B6 /* Todoey.storyboard */; };
+		0B75649D2EAE3468000C13B6 /* TodoeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B75649C2EAE3468000C13B6 /* TodoeyViewController.swift */; };
 		0B8B60622E9CEC92009736D1 /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8B60612E9CEC92009736D1 /* CalculatorLogic.swift */; };
 		0B8B60642E9CFDC0009736D1 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8B60632E9CFDC0009736D1 /* BMI.swift */; };
 		0B8B60682E9D3FB1009736D1 /* Weather.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B8B60672E9D3FB0009736D1 /* Weather.storyboard */; };
@@ -55,6 +57,8 @@
 		0B1C509B2E9A9C2400CA0D26 /* QuizLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizLogic.swift; sourceTree = "<group>"; };
 		0B4804292E9A7F0500012BDA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		0B723B652E9F7D57006FF178 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		0B7564982EAE33A8000C13B6 /* Todoey.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Todoey.storyboard; sourceTree = "<group>"; };
+		0B75649C2EAE3468000C13B6 /* TodoeyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoeyViewController.swift; sourceTree = "<group>"; };
 		0B8B60612E9CEC92009736D1 /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
 		0B8B60632E9CFDC0009736D1 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 		0B8B60672E9D3FB0009736D1 /* Weather.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Weather.storyboard; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 		0B0F41882E8FD355008A86CF /* swift practice */ = {
 			isa = PBXGroup;
 			children = (
+				0B7564972EAE3333000C13B6 /* todoey */,
 				0B92D8262EA378B000337047 /* flash_chat */,
 				0B8B60652E9D3ECA009736D1 /* weather */,
 				0B9DB2632E9BA8B000A000D7 /* bmi_calculator */,
@@ -155,6 +160,31 @@
 			isa = PBXGroup;
 			children = (
 				0B960D872E9A3F8C00E2E652 /* QuizzViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0B7564972EAE3333000C13B6 /* todoey */ = {
+			isa = PBXGroup;
+			children = (
+				0B75649B2EAE33F8000C13B6 /* controller */,
+				0B75649A2EAE33E6000C13B6 /* view */,
+			);
+			path = todoey;
+			sourceTree = "<group>";
+		};
+		0B75649A2EAE33E6000C13B6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0B7564982EAE33A8000C13B6 /* Todoey.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0B75649B2EAE33F8000C13B6 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0B75649C2EAE3468000C13B6 /* TodoeyViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -363,6 +393,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B7564992EAE33A8000C13B6 /* Todoey.storyboard in Resources */,
 				0B8B60682E9D3FB1009736D1 /* Weather.storyboard in Resources */,
 				0B92D82B2EA379E100337047 /* FlashChat.storyboard in Resources */,
 				0B0F41962E8FD356008A86CF /* LaunchScreen.storyboard in Resources */,
@@ -403,6 +434,7 @@
 				0B92D82F2EA37AB900337047 /* RegisterViewController.swift in Sources */,
 				0B960D882E9A3F8C00E2E652 /* QuizzViewController.swift in Sources */,
 				0B9DB26A2E9BA9BF00A000D7 /* BMICalculatorViewController.swift in Sources */,
+				0B75649D2EAE3468000C13B6 /* TodoeyViewController.swift in Sources */,
 				0BFD55492EAA735E0092A072 /* HackerNews.swift in Sources */,
 				0B9DB26C2E9BAEBF00A000D7 /* ResultViewController.swift in Sources */,
 			);

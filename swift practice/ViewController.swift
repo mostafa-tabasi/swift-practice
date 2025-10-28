@@ -54,7 +54,13 @@ class ViewController: UIViewController {
         let hackerNews = HackerNews()
         let hostingController = UIHostingController(rootView: hackerNews)
         self.navigationController?.pushViewController(hostingController, animated: true)
+    }
+    
+    @IBAction func goToTodoey(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Todoey", bundle: nil)
+        let todoeyVC = storyboard.instantiateViewController(withIdentifier: "TodoeyViewController") as! TodoeyViewController
         
+        self.navigationController?.pushViewController(todoeyVC, animated: true)
     }
 }
 

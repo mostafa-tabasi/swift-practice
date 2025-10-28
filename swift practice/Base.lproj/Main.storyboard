@@ -63,6 +63,14 @@
                                     <action selector="goToHackerNews:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TWF-yX-T42"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPR-gz-Ul4">
+                                <rect key="frame" x="181" y="566" width="51" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Todoey"/>
+                                <connections>
+                                    <action selector="goToTodoey:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hFU-uj-KDp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
